@@ -1,0 +1,54 @@
+skenario pengujian
+1)	LoginViewModelTest
+    a)	when login success
+        i)  memastikan metode di class interactors PostLogin() terpanggil
+        ii) memastikan success bernilai true
+
+    b)	when login failed
+        i)memastikan metode di class interactors PostLogin() terpanggil
+        ii) memastikan success bernilai false
+
+2) RegisterViewModelTest
+  a) when Register Success
+    i)memastikan metode di class interactors onPostRegister terpanggil
+    ii)memastikan success bernilai true
+
+
+3) MapsViewModelTest
+  a) when Get stories Should Not Null and Success
+   i)memastikan metode di class interactors getStories terpanggil
+   ii)memastikan stories tidak null
+   iii)memastikan stories tidak kosong
+   iv)memastikan jumlah data stories sesuai dengan dummyStories
+   v)memastikan response stories sesuai dengan dummyStories
+
+4)	StoryListViewModelTest
+    a) when Get stories paging data Should Not Null and Success
+        i)	memastikan metode di class interactors getStoriesPagingData terpanggil
+        ii) memastikan response tidak null
+        iii)memastikan jumlah data response sesuai dengan dummyStories
+        iv)	memastikan response sesuai dengan dummyStories
+
+    b) when Logout successfully
+        i)	memastikan metode di class interactors deleteUserPref terpanggil
+        ii) memastikan success bernilai  true
+
+
+5)	StoryUploadViewModelTest
+  a) when upload success
+    i)	memastikan metode di class interactors postStory terpanggil
+   ii) memastikan success bernilai  true
+
+6)	StoryDetailViewModelTest
+  a) when Get Story Should Not Null
+    i)	memastikan metode di class interactors loadStory terpanggil
+    ii)	memastikan story tidak null
+    iii)memastikan story sesuai dengan expectedStory
+
+
+
+
+
+
+
+
